@@ -1,73 +1,76 @@
-#  SQL + Tableau Dashboard Project: Online Course Engagement Analysis
+# Learning Platform Insights
 
-This project demonstrates my ability to work with real-world data using SQL for analysis and Tableau for visual storytelling. The dataset revolves around user engagement in various online course categories, analyzed across different device types and learning outcomes.
-
----
-
-##  Objective
-
-The goal of this project was to:
-- Extract meaningful insights from raw course data using SQL
-- Visualize engagement trends through a well-structured Tableau dashboard
-- Highlight behavioral patterns in user learning across devices and course types
+An education analytics project focused on understanding user engagement, category performance, and device-based usage patterns using platform interaction data.
 
 ---
 
-##  What the Dashboard Shows
-
-The dashboard offers a multi-faceted view of online course engagement. Key insights include:
-
--  **Average Course Completion Percentage**  
-  An overall gauge of how committed users are to completing their chosen courses.
-
--  **Completion Rate by Category**  
-  Visual comparison of how different course topics perform in terms of completion.
-
--  **User Count by Device & Category**  
-  A breakdown showing which device types (mobile/desktop) dominate usage across various course categories.
-
--  **Average Time Spent per Category**  
-  Which topics hold users' attention the longest.
-
--  **Average Quiz Score by Category**  
-  Measures how well users are retaining what they’ve learned.
-
--  **Health Category Focus**  
-  A deep dive into how users engage with Health-related content by device type.
+## Objective  
+The goal of this project is to extract actionable insights from e-learning platform data to help stakeholders enhance user experience, optimize content delivery, and identify key behavioral trends.
 
 ---
 
-##  Live Dashboard
+## Dataset Overview  
+The dataset contains learning behavior data segmented by course categories and user device types.
 
-Click below to explore the dashboard interactively:  
- [**View on Tableau Public**](https://public.tableau.com/app/profile/your_username/viz/your_dashboard_name)
-
----
-
-##  Tools Used
-
-- **SQL** – for data filtering, aggregation, and transformation  
-- **Tableau** – for building a clean, KPI-focused, interactive dashboard  
-- **GitHub** – for version control and portfolio presentation
+**Key Fields Included:**
+- Course Category  
+- Device Type (Mobile/Desktop)  
+- User Count  
+- Completion Percentage  
+- Average Time Spent  
+- Average Quiz Score  
 
 ---
 
-## 🧑‍💻 Use Case
-
-This type of analysis would be critical in any **EdTech** or **online learning platform** aiming to:
-- Personalize user experiences
-- Optimize course delivery across devices
-- Improve quiz design and completion rates
-
----
-
-## 🔗 Folder Contents
-
-- `dashboard.twbx` – Tableau packaged workbook file  
-- `query.sql` – SQL query used for data extraction  
-- `README.md` – Project overview and documentation
+## Tools Used  
+- Tableau Public  
+- Google Sheets  
+- SQL (for querying and structuring data)  
+- VS Code (for documentation & version control)  
 
 ---
 
-> 🎯 **Outcome**: This project reflects my ability to bridge data and storytelling. It showcases a full cycle — from querying raw data to presenting insights in a compelling and digestible format.
+## Analysis Performed
+
+1. **User Count by Device Type and Category**  
+   Identified how many users accessed each course category using mobile or desktop devices.
+
+2. **Completion Percentage by Category**  
+   Compared average course completion percentages across all categories to determine engagement levels.
+
+3. **Average Time Spent per Category**  
+   Tracked how much time learners spend in different course categories to assess depth of engagement.
+
+4. **Average Quiz Score and User Count**  
+   Evaluated performance by combining quiz score averages with user counts to identify effective categories.
+
+5. **Health Category User Distribution by Device**  
+   Focused analysis on the Health category to reveal device preferences among users.
+
+---
+
+## Key Insights
+
+- **Mobile is Dominant**: Most users accessed healthcare content via mobile devices.  
+- **Higher Engagement in Health Category**: Health showed the highest user count and above-average completion rates.  
+- **Average Time vs. Completion Trade-Off**: Some categories with higher average time spent had lower completion rates, indicating possible friction or difficulty.  
+- **Quiz Score Consistency**: Scores remained fairly consistent across device types, suggesting usability was maintained regardless of platform.
+
+---
+
+## Outcome  
+This dashboard enables stakeholders to quickly understand which course categories perform best, which devices learners prefer, and where optimization can improve learning outcomes. It reflects the ability to:
+
+- Build and publish dynamic dashboards  
+- Interpret engagement data in context  
+- Segment by category and device for deeper insights  
+- Create business-ready visualizations for strategic decision-making  
+
+[View the Dashboard Here](https://public.tableau.com/app/profile/vibek.singha/viz/LearningInsightsDashboard/Dashboard2)
+
+---
+
+## Author  
+Built by Vibek Singha 
+For: Data Analyst Role @ Incanus Technologies
 
