@@ -72,5 +72,4 @@ This dashboard enables stakeholders to quickly understand which course categorie
 
 ## Author  
 Built by Vibek Singha 
-For: Data Analyst Role @ Incanus Technologies
-
+For: Data Analyst Role 
